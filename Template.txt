@@ -1,0 +1,13 @@
+import cv2
+import numpy
+
+# Read the image
+img1=cv2.imread('Images/')
+
+#Show image
+cv2.imshow('Image 1',img1)
+cv2.imshow('Image 2',img2)
+
+# Close and exit
+cv2.waitKey(0) # 0 makes it wait infinitely
+ cv2.destroyAllWindows()
