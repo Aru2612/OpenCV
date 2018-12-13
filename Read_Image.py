@@ -3,8 +3,8 @@ import numpy
 
 # Read the image
 '''<img_object_name>=cv2.imread(<Filename>)'''
-img1=cv2.imread('Lion.jpg')
-img2=cv2.imread('LionBMP.jpg')
+img1=cv2.imread('Images/Lion.jpg')
+img2=cv2.imread('Images/LionBMP.jpg')
 
 
 # Show the images
