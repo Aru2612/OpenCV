@@ -2,7 +2,7 @@ import cv2
 import numpy
 
 # Read the image
-img=cv2.imread('test_image.jpg',1)
+img=cv2.imread('Images/test_image.jpg',1)
 
 #Save just the Red channel
 img1=img.copy()

@@ -2,7 +2,7 @@ import cv2
 import numpy
 
 # Read the image
-img=cv2.imread('Lion.jpg')
+img=cv2.imread('Images/Lion.jpg')
 h,w,c=img.shape
 img1=img[:,:int(w/2),:]
 img2=img[:,int(w/2):,:]

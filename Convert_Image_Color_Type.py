@@ -4,7 +4,7 @@ import numpy
 '''RGB to GRAY'''
 
 # Read the image
-img=cv2.imread('Lion.jpg')
+img=cv2.imread('Images/Lion.jpg')
 
 # Process the image
 img1=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
@@ -20,7 +20,7 @@ cv2.destroyAllWindows()
 '''RGB to HSV (Hue, Saturation, Value)'''
 
 # Read the image
-img=cv2.imread('color_image.jpg')
+img=cv2.imread('Images/color_image.jpg')
 
 # Process the image
 img2=cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
